@@ -1,8 +1,18 @@
 body {
   background-color: grey;
 }
-text{
+text {
+  
   color: navy;
+}
+
+h1 {
+  text-align: center;
+}
+
+p
+{
+  font-size: 24px;
 }
 
 
