@@ -1,13 +1,14 @@
-body {
-  background-color: grey;
-  color: navy;
-  text-align: center;
-}
 #TopStuff{
   background-color: blueviolet;
   color: aliceblue;
   text-align: left;
 }
+body {
+  background-color: grey;
+  color: navy;
+  text-align: center;
+}
+
 h1 {
   text-align: center;
 }
