@@ -3,7 +3,11 @@ body {
   color: navy;
   text-align: center;
 }
-
+#TopStuff{
+  background-color: blueviolet;
+  color: aliceblue;
+  text-align: left;
+}
 h1 {
   text-align: center;
 }
