@@ -20,3 +20,8 @@ div
 {
   text-align: center;  
 }
+ul
+{
+  display: table;
+  margin: 0 auto;
+}
