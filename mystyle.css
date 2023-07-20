@@ -15,7 +15,7 @@
 }
 #About
 {
-  margin: 33%;
+  margin: 250px;
   background-color: grey;
   color: aliceblue;
   text-align: left;
@@ -28,6 +28,7 @@ body
 
 h2 
 {
+  color: aliceblue;
   text-align: center;
 }
 .pTop
