@@ -4,6 +4,7 @@
 <title>Your New Favorite Programmer</title>
 <link rel="stylesheet" href="mystyle.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </head>
 <body>
 
@@ -62,6 +63,10 @@
         <div id="test6">Test 3</div>
         </div>
     </div>
+    <script>
+        var el = document.querySelector('.tabs');
+        var instance = M.Tabs.init(el, {});
+    </script>
 </div>
 
 <div id = "TheRest">
