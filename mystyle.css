@@ -43,18 +43,22 @@
 }
 .gif
 {
-  
+  margin-left: 50%; 
   padding: 50px;
   width: 500px; 
   display: inline-block;
 }
 .description
 {
-  
+  margin-left: 50%;
   padding: 50px;
   padding-right: 500px; 
-  
   display: inline-grid;
+}
+.child
+{
+  float: left; 
+  width: 50%; 
 }
 .space
 {
