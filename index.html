@@ -109,7 +109,13 @@
         </div>
         <script>
             var el = document.querySelector('.tabs');
-            var instance = M.Tabs.init(el, {swipeable: true,responsiveThreshold : 1920});
+            var instance = M.Tabs.init(el, 
+            {
+
+                swipeable: true,
+                responsiveThreshold : 1920,
+                duration: 300
+            });
         </script>
     </div>
     
