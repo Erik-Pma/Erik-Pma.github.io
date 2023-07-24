@@ -32,7 +32,10 @@
                     </li>
                 </ul>
             </div>
-            
+            <script>
+                var el = document.querySelector('.tabss');
+                var instance = M.Tabss.init(el, {});
+            </script>
         </div>
         <!-- non card Vertion
         <h2><a href = "https://erikpraitis.itch.io/">Games</a></h2>
@@ -106,7 +109,7 @@
         </div>
         <script>
             var el = document.querySelector('.tabs');
-            var instance = M.Tabs.init(el, {});
+            var instance = M.Tabs.init(el, {swipeable: true,responsiveThreshold : 1920});
         </script>
     </div>
     
