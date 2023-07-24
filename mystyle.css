@@ -44,10 +44,16 @@
 .gif
 {
   background-color: aqua;
+  padding: 50px;
+  width: 100px; 
+  display: inline-block;
 }
 .description
 {
   background-color: blueviolet;
+  padding: 50px; 
+  width: 100px; 
+  display: inline-block;
 }
 .space
 {
