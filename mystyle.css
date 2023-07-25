@@ -59,6 +59,10 @@
   height: 20%;
   max-width: 80%; /* Set the maximum width to 80% of the screen */
 }
+.slides
+{
+  height: 95%;
+}
 .description
 {
   margin-left: 50%;
