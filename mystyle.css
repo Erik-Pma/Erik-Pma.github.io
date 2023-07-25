@@ -1,4 +1,6 @@
 #TopStuff{
+  position: fixed;
+  z-index: 999; /* Adjust the z-index value as needed */
   margin: auto 13rem;
   text-align: left;
   height: 250px;
