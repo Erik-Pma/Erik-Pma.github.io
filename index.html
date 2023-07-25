@@ -54,10 +54,15 @@
       </li>
     </ul>
     <script>
+        var options = {
+            indicators: true, // Set to true to display indicators (dots) below the slider
+            duration: 500,    // Transition duration in milliseconds
+            interval: 6000,   // Time between slide transitions in milliseconds (6 seconds in this case)
+        };
         var elems = document.querySelectorAll('.slider');
         var instances = M.Slider.init(elems, options);
     </script>
-  </div>
+    </div>
         
         <!--
         <div class="card blue-grey darken-1" id = "games">
