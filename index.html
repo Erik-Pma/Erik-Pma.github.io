@@ -26,36 +26,66 @@
     <div id = "TheRest" class="blue-grey">
         
     <div class="slider" id="gif">
-        <div class="container">
-            <div class="row">
-              <div class="col s12">
-                <div class="card">
-                  <div class="card-content">
-                    <span class="card-title">Slide 1</span>
-                    <p>This is the content of slide 1.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col s12">
-                <div class="card">
-                  <div class="card-content">
-                    <span class="card-title">Slide 2</span>
-                    <p>This is the content of slide 2.</p>
-                  </div>
-                </div>
-              </div>
+    <ul class="slides">
+        <li>
+        <img src="Images/4LO9NB.gif"> <!-- random image -->
+        <div class="caption left-align">
+            <h3>Fish Gun</h3>
+            <h5 class="light grey-text text-lighten-3 text-align-left">
+            I built a boid system that could have 200+ boids at a time.<br>
+            I had to make school together like fish and mad a shader to <br>
+            make it look like they were swimming.It was able to get a<br>
+            60fps on a 770 with shadows and other effets.
+        </h5>
+        </div>
+        </li>
+        <li>
+        <img src="Images/rodnreelsgif.gif"> <!-- random image -->
+        <div class="caption left-align">
+            <h3>Rods and Reels</h3>
+            <h5 class="light grey-text text-lighten-3">
+            I created a node based ai system that I applyed to the fish.<br>
+            I made Obsticles and environment effets that would make the hook<br>
+            bounce or break or move. along with a system that prevents you to<br>
+            fish deaper unless you have a better rod. You can buy it at a shop<br>
+            menu and there are 4 levels. 
+        </h5>
+        </div>
+    </li>
+    <li>
+        <img src="Images/dinogolfgif.gif"> <!-- random image -->
+        <div class="caption left-align">
+        <h3>Dino Golf</h3>
+        <h5 class="light grey-text text-lighten-3">
+            In Dino gold I created the physics for the ball. Also the Obsticles that<br>
+            you would have to avoid and move around<br>
+
+        </h5>
+        </div>
+    </li>
+    <li>
+        <img src="Images/65e585276696283409419b27_3.png">
+        <div class="caption left-align">
+            <h3>Castaways</h3>
+            <h5 class="light grey-text text-lighten-3">
+                Castways was an mmo social game for PC, android, and ios.<br>
+                I worked on rewriting a bunch of code to work more modulary to run faster.<br>
+                I helped add skins to the game and update the store.<br> 
+                I also worked to with others to help come up with ways to add pets.<br>
+                I worked with data base transactions that lets us quickly add skins, islands, and rewards.<br>
+            </h5>
             </div>
-          </div>
-        
-          <!-- Include jQuery and Materialize JavaScript -->
-          <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-          <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-          <script>
-            // Initialize Materialize components
-            $(document).ready(function(){
-              $('.carousel').carousel();
-            });
-          </script>
+    </li>    
+    </ul>
+    <script>
+        var options = {
+            indicators: true, // Set to true to display indicators (dots) below the slider
+            duration: 750,    // Transition duration in milliseconds
+            interval: 12000,   // Time between slide transitions in milliseconds (6 seconds in this case)
+        };
+        var elems = document.querySelectorAll('.slider');
+        var instances = M.Slider.init(elems, options);
+    </script>
     </div>
         
         
