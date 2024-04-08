@@ -1,6 +1,39 @@
-#TopStuff{
+header
+{
+  height: 45em;
+  background: url(https://picsum.photo/id/1033.1600.900) no-repeat center;
+  background-size: cover;
+  position: relative;
+  margin-bottom: 4em;
+}
+
+header::before
+{
+  content: '';
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,0.8);
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+p{max-width: 35em;}
+
+section{padding: 4em 0;}
+
+h2{ margin-bottom: 1.5em;}
+
+@media screen and (max-width: 600px)
+{
+  header
+  {
+    height: 30em;
+  }
+}
+/*#TopStuff{
   position: fixed;
-  z-index: 999; /* Adjust the z-index value as needed */
+  z-index: 999; 
   margin: auto 13rem;
   text-align: left;
   height: 250px;
@@ -55,9 +88,9 @@
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .slider {
-  margin: 0 auto; /* Center the slider horizontally */
+  margin: 0 auto; 
   height: 40%;
-  max-width: 80%; /* Set the maximum width to 80% of the screen */
+  max-width: 80%; 
 }
 .slides
 {
@@ -109,4 +142,4 @@ ul
   display: table;
   margin: 0 auto;
   height: auto;
-}
+}*/
