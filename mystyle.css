@@ -1,10 +1,9 @@
 header
 {
-  height: 60em;
+  height: 45em;
   background: url('Images/cast.png') no-repeat center;
   background-size: cover;
   position: relative;
-  margin-top: 0em;
   margin-bottom: 4em;
 }
 
@@ -26,12 +25,6 @@ section{padding: 4em 0;}
 
 h2{ margin-bottom: 1.5em;}
 
-@media screen and (max-width: 600px)
-{
-  header
-  {
-    height: 30em;
-  }
-}
+
 
 
