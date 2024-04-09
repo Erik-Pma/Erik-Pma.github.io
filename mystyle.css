@@ -23,7 +23,7 @@ p{max-width: 35em;}
 section{padding: 4em 0;}
 
 h2{ margin-bottom: 1.5em;}
-
+/*
 @media screen and (max-width: 600px)
 {
   header
@@ -31,115 +31,5 @@ h2{ margin-bottom: 1.5em;}
     height: 30em;
   }
 }
-/*#TopStuff{
-  position: fixed;
-  z-index: 999; 
-  margin: auto 13rem;
-  text-align: left;
-  height: 250px;
-  vertical-align: middle;
-  display: inline-block;
-  width: 79.5%;
-  padding: 0rem 7rem;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-#TheRest {
-  background-color: green;
-  color: aliceblue;
-  padding-top: 300px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-#About {
-  display: inline-block;
-  height: 300px;
-  width: 40%;
-  border-top: 15px;
-  text-align: left;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  vertical-align: middle;
-}
-#games
-{
-  margin: auto 13rem;
-  text-align: center;
-  vertical-align: middle;
-  display: inline-block;
-  width: 79.5%;
-  padding: 0rem 7rem;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-#Examples
-{
-  background-color:#512da8;
-  display: inline-block;
-  height: 300px;
-  vertical-align: middle;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-#gif
-{
-  margin: auto 13rem;
-  text-align: left;
-  height: 250px;
-  vertical-align: middle;
-  display: inline-block;
-  width: 79.5%;
-  padding: 0rem 7rem;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-.slider {
-  margin: 0 auto; 
-  height: 40%;
-  max-width: 80%; 
-}
-.slides
-{
-  height: 95%;
-}
-.description
-{
-  margin-left: 50%;
-  padding: 50px; 
-  display: inline-grid;
-}
-.child
-{
-  float: left; 
-  width: 50%; 
-}
-.space
-{
-  height: 15px;
-}
-.parent
-{
+*/
 
-  margin: 1rem 13rem;
-  padding: 2rem 0rem;
-  text-align: center;
-}
-.icons
-{
-  margin-left: 30rem;
-}
-body
-{
-  color :#512da8;
-}
-h2 
-{
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  color: aliceblue;
-  text-align: center;
-}
-.pTop
-{
-  text-align: left;
-  font-size: 16px; 
-}
-ul
-{
-  display: table;
-  margin: 0 auto;
-  height: auto;
-}*/
