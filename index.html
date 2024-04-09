@@ -50,15 +50,13 @@
             </a>
         </li>
     </ul>
+    <script>
+        document,addEventListener("DOMContentLoaded",function (){
+            var elems = document.querySelectorAll(".sidenav");
+            var instances = M.Sidenav.init(elems);
+        });
+    </script>
 </nav>
-
-<script>
-    document,addEventListener("DOMContentLoaded",function (){
-        var elems = document.querySelectorAll(".sidenav");
-        var instances = M.Sidenav.init(elems);
-    });
-</script>
-
 
 <header class=""white-text valign-wrapper>
     <div style="position: relative;" class="container">
@@ -70,6 +68,7 @@
         </a>
     </div>
 </header>
+
 <div class="container">
     <!-- rest of code goes here-->
 </div>
