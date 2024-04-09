@@ -7,6 +7,9 @@ header
   margin-bottom: 4em;
 }
 
+header h1 {
+  margin: 0; /* Resetting margin to zero */
+}
 header::before
 {
   content: '';
@@ -20,6 +23,7 @@ header::before
 
 p{max-width: 35em;}
 
+section{padding: 4em 0;}
 
 h2{ margin-bottom: 1.5em;}
 /*
