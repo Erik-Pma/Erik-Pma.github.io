@@ -4,12 +4,10 @@ header
   background: url('Images/cast.png') no-repeat center;
   background-size: cover;
   position: relative;
+  margin-top: 0em;
   margin-bottom: 4em;
 }
 
-header h1 {
-  margin: 0; /* Resetting margin to zero */
-}
 header::before
 {
   content: '';
@@ -26,7 +24,7 @@ p{max-width: 35em;}
 section{padding: 4em 0;}
 
 h2{ margin-bottom: 1.5em;}
-/*
+
 @media screen and (max-width: 600px)
 {
   header
@@ -34,5 +32,5 @@ h2{ margin-bottom: 1.5em;}
     height: 30em;
   }
 }
-*/
+
 
