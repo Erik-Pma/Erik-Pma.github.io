@@ -14,10 +14,14 @@ header::before
   left: 0;
   background: rgba(0,0,0,0.8);
   width: 100%;
-  height: 120%;
+  height: 100%;
   z-index: 0;
 }
 
+nav
+{
+  height: 45em;
+}
 p{max-width: 35em;}
 
 section{padding: 4em 0;}
