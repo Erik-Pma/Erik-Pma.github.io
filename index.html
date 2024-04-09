@@ -12,6 +12,7 @@
 <!-- Compiled and minified JavaScript-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </head>
+
 <nav class="deep-purple darken-1">
     <div class="container">
         <a href="#" class="brand-logo">Erik Praitis</a>
@@ -21,7 +22,7 @@
         <ul class="right hide-on-med-and-down">
             <li>
                 <a href="https://github.com/Erik-Pma">
-                    <i class="fa-brands fa-github fa-2x deep-purple-text"></i>
+                    <i class="fa-brands fa-github fa-2x"></i>
                 </a>
             </li>
             <li><a href="#">Home</a></li>
@@ -29,33 +30,36 @@
             <li><a href="#">Projects</a></li>
         </ul>
     </div>
+    <ul id="mobile-demo" class="sidenav">
+        <li>
+            <div>
+                <a href="#"></a><img class="circle" src="https://picsum.photos/id/1033/70/70"/></a>
+                <span class="black-text name">Erik Praitis</span>
+                <span class=" grey-text darken-3 email">Erik_p@outlook.com</span>
+            </div>
+        </li>
+        <li>
+            <a href="#">
+                <i class="fa-brands fa-linkedin fa-2x deep-purple-text"></i>
+                LinkedIn
+            </a>
+        </li>
+        <li>
+            <a href="https://github.com/Erik-Pma">
+                <i class="fa-brands fa-github fa-2x deep-purple-text"></i>
+            </a>
+        </li>
+    </ul>
 </nav>
+
 <script>
     document,addEventListener("DOMContentLoaded",function (){
         var elems = document.querySelectorAll(".sidenav");
         var instances = M.Sidenav.init(elems);
     });
 </script>
-<ul id="mobile-demo" class="sidenav">
-    <li>
-        <div>
-            <a href="#"></a><img class="circle" src="https://picsum.photos/id/1033/70/70"/></a>
-            <span class="black-text name">Erik Praitis</span>
-            <span class=" grey-text darken-3 email">Erik_p@outlook.com</span>
-        </div>
-    </li>
-    <li>
-        <a href="#">
-            <i class="fa-brands fa-linkedin"></i>
-            LinkedIn
-        </a>
-    </li>
-    <li>
-        <a href="https://github.com/Erik-Pma">
-            <i class="fa-brands fa-github fa-2x deep-purple-text"></i>
-        </a>
-    </li>
-</ul>
+
+
 <header class=""white-text valign-wrapper>
     <div style="position: relative;" class="container">
         <h1>Erik Praitis</h1>
