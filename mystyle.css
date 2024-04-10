@@ -22,6 +22,7 @@ header::before
 footer
 {
   height: 12em;
+  display: flex;
 }
 
 p
