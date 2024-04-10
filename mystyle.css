@@ -1,16 +1,11 @@
 header
 {
-  height: 45em;
+  height: 60em;
   width: 100%;
   background: url('Images/cast.png') no-repeat center;
   background-size: cover;
   position: relative;
   margin-bottom: 4em;
-  top: 0; /* Add this line */
-}
-nav
-{
-  
 }
 header::before
 {
@@ -24,7 +19,11 @@ header::before
   z-index: 0;
 }
 
-p{max-width: 35em;}
+p
+{
+  font-size: 18px;
+  max-width: 35em;
+}
 
 section{padding: 4em 0;}
 
