@@ -26,6 +26,13 @@ section{padding: 4em 0;}
 
 h2{ margin-bottom: 1.5em;}
 
+@media screen and (max-width: 600px) 
+{
+  header{
+    height: 30em;
+  }
+}
+
 .custom-wrapper {
 	display: -webkit-flex;
 	display: -ms-flexbox;
@@ -34,5 +41,3 @@ h2{ margin-bottom: 1.5em;}
 	-ms-flex-align: center;
 	align-items: center;
 }
-
-
