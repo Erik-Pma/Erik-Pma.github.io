@@ -51,3 +51,16 @@ h2{ margin-bottom: 1.5em;}
 	-ms-flex-align: center;
 	align-items: center;
 }
+
+.row {
+  &.flexbox {
+		display: flex;
+		flex-wrap: wrap;
+    .col {
+			display: flex;
+			flex-direction: column;
+			.card, 
+			.card-panel {flex: 1;}
+    }
+  }
+}
