@@ -65,27 +65,13 @@ h2{ margin-bottom: 1.5em;}
   }
 }
 
-/* Gives the slider framework a strict height container */
-.carousel.carousel-slider {
-  height: 450px; 
+/* Gives the carousel a canvas to display on */
+.carousel {
+  height: 400px; 
 }
 
-/* Forces cards to fill out the slider panel cleanly */
-.carousel .carousel-item .card {
-  margin: 0 auto;
-  max-width: 600px; /* Adjust this to make your text layout narrower/wider */
-  text-align: left;
-}
-
-/* Minor fix for your CSS syntax error at the bottom of your file */
-.row.flexbox {
-  display: flex;
-  flex-wrap: wrap;
-}
-.row.flexbox .col {
-  display: flex;
-  flex-direction: column;
-}
-.row.flexbox .col .card {
-  flex: 1;
+/* Gives your cards a defined width */
+.carousel .carousel-item {
+  width: 300px; 
+  height: auto;
 }
